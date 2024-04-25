@@ -1,0 +1,27 @@
+nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70p;
+    padding: 10px;
+    font-size:larger;
+    font-family: sans-serif;
+    text-align: center;
+    z-index: 1000;
+    height: 85px;
+    box-shadow: 0 2px 4px rgba(73, 73, 73, 0.548);
+    
+}
+
+nav img{
+    height: 70px;
+    width: 275px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 100px; /* Adicionar margem à direita para empurrar os itens para a  */
+
+}
