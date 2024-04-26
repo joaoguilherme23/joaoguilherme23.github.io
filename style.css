@@ -1,5 +1,3 @@
-
-
 nav {
     position: fixed !important;
     top: 0;
@@ -26,8 +24,7 @@ nav img{
     margin-left: 7px;
     margin-top: 5px;
     padding: 0;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 .navbar-nav .nav-link {
@@ -35,46 +32,17 @@ nav img{
 
 }
 
-
-
-.imagem-container {
-    position: relative;
-    width: 100%; /* Define a largura igual à largura do viewport do navegador */
-    max-width: 100%;
-     /* Define a altura desejada */
-    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do contêiner */
-    margin-top: 70px;
-}
-
-.imagem-container img {
-    position: relative;
-    width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner */
-    height: auto; /* Mantém a proporção original da imagem */
-    
-   
-}
-
-
-
-
-
-#sectionAbout{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: larger;
-}
-
-.container-fluid img{
-    height: 750x;
-    width: 50px;
-    
-   
-}
 body{
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    margin-top: 70px;
 }
 
+.img1 img{
+    height: 100%;
+    width: auto;
+}
 
 #carouselExampleFade{
     margin: 0 auto;
@@ -102,9 +70,8 @@ body{
     line-height: 5; /* Ajustar a altura da linha para alinhar o texto corretamente */
 }
 
-.section li{
-    
-    margin-right: 70px;
+.section li{ 
+    margin-right: 60px;
 }
 
 .li1{
@@ -139,12 +106,15 @@ section{
 
 .background-image {
     position: relative;
-    background-image: url('imagens/electrician-builder-work-examines-cable-connection-electrical-line-fuselage-industrial-switchboard-professional-overalls-with-electrician-s-tool.jpg');
+    
     background-size: cover;
     background-position: center;
     height: 100vh; /* Ocupa a altura total da tela */
     
 } 
+#img2{
+    background-image: url(imagens/electrician-builder-work-examines-cable-connection-electrical-line-fuselage-industrial-switchboard-professional-overalls-with-electrician-s-tool.jpg);
+}
 
 .background-image::before {
     content: "";
@@ -153,5 +123,5 @@ section{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Overlay com transparência */
+     /* Overlay com transparência */
 }
